@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ===== META TAGS ===== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbershop</title>
+
+    <!-- ===== CSS FILES ===== -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+
+    <!-- ===== NAVIGATION BAR ===== -->
+    <nav>
+        <!-- Mobile Menu Toggle -->
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <!-- Hamburger Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+        </label>
+
+        <!-- Logo -->
+        <img class="logo" src="images/barbershop-logo4.webp" alt="Barbershop Logo">
+
+        <!-- Navigation Links -->
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== HERO CAROUSEL ===== -->
+    <section>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <img src="images/barbershop1.jpg" class="d-block w-100" alt="Barbershop interior photo 1">
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <img src="images/barbershop2.webp" class="d-block w-100" alt="Barbershop interior photo 2">
+                </div>
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <img src="images/barbershop3.webp" class="d-block w-100" alt="Barbershop interior photo 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="about">
+        <div class="intduce-barber">
+            <h1>Barber</h1>
+            <p>
+               I’m a Riga-based barber specializing in clean fades, sharp beard shaping, and classic styles. 
+               Mobile or in-shop, I bring professional tools, hygiene-first care, and friendly service. 
+               Book for a confident look that suits your face, hair type, and lifestyle perfectly.
+            </p>
+        </div>
+        <div class="barber-image">
+            <img src="images/brand.jpg" alt="Barber portrait">
+        </div>
+    </section>
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section id="service" class="service">
+        <h1>Our Services</h1>
+        <div class="cards">
+
+            <!-- Service 1 -->
+            <div class="card">
+                <img src="images/kids-haircut" class="card-img-top" alt="Kid getting a haircut">
+                <div class="card-body">
+                    <h3>Kid's Haircut</h3>
+                    <p class="card-text">
+                        Give your little champ a fresh, stylish look with our expert <strong>Kid’s Haircut</strong>. 
+                        <span>€10</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="card">
+                <img src="images/beard-trim.jpg" class="card-img-top" alt="Man beard trimming">
+                <div class="card-body">
+                    <h3>Beard Trimming</h3>
+                    <p class="card-text">
+                        Shape, define, and sharpen your style with our precision <strong>Beard Trimming</strong>. 
+                        <span>€10</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="card">
+                <img src="images/haircut-beard.jpg" class="card-img-top" alt="Haircut and beard grooming">
+                <div class="card-body">
+                    <h3>Haircut + Beard</h3>
+                    <p class="card-text">
+                        Complete transformation with our <strong>Haircut + Beard</strong> package for the ultimate style boost. 
+                        <span>€25</span>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== CONTACT / FOOTER ===== -->
+    <footer id="contact" class="footer">
+        <div class="footer-container">
+            <h2>Contact Us</h2>
+            <p>📞 <a href="tel:+37125442055">+371 2544 2055</a></p>
+            <p>✂️ <a href="https://t.me/barber_8878" target="_blank">Telegram Chat</a></p>
+            <p>📍 <a href="https://maps.google.com?q=Riga+Latvia" target="_blank">Riga, Latvia</a></p>
+            <p>🕒 Mon–Sat: 9:00 – 23:00</p>
+        </div>
+    </footer>
+
+    <!-- ===== BOOTSTRAP JS ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+</html>
