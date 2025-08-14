@@ -1,0 +1,51 @@
+# 💈 Barbershop Website
+
+A clean, responsive, and modern **barbershop landing page** built with **HTML, CSS, and Bootstrap**.  
+This website showcases the barber’s services, prices, and contact details, and includes a responsive design for mobile, tablet, and desktop.
+
+---
+
+## 🚀 Features
+
+- 📱 **Fully Responsive** — Works perfectly on all devices.
+- 🎨 **Modern Design** — Clean, warm color palette and smooth hover effects.
+- 📷 **Image Carousel** — Showcasing barbershop photos.
+- ✂️ **Services Section** — With prices and descriptions.
+- 📍 **Contact Section** — Phone, Telegram, and location links.
+- 🖱 **Smooth Navigation** — With mobile-friendly hamburger menu.
+
+---
+
+## 🛠 Built With
+
+- **HTML5** — Semantic and accessible markup.
+- **CSS3** — Custom styles with responsive media queries.
+- **Bootstrap 5** — Carousel, grid layout, and responsive helpers.
+
+---
+
+## 📂 Folder Structure
+
+```bash
+barbershop/
+│
+├── index.html       # Main HTML file
+├── style.css        # Custom CSS styles
+├── bootstrap.css    # Bootstrap framework
+├── images/          # All project images
+└── README.md        # Project documentation
+
+📞 Contact
+
+📞 Phone: +371 2544 2055
+
+✂️ Telegram-channel: @CodeWithAsror
+
+📍 Location: Riga, Latvia
+
+📜 License
+
+This project is free to use for learning purposes.
+If you use it for your business, please keep the footer credit or link back to this repo.
+
+
